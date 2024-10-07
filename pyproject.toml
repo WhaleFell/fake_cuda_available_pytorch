@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "fake_torch"
+version = "0.2.0"
+description = "this python library to make `pytorch.cuda.is_available()` show as available fakely whatever the system, GPU, or CUDA version is. Just a joke. Don't use it in production!"
+authors = ["CYX <CYX24020121@wyu.edu.cn>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://www.wyu.edu.cn/"
+keywords = ["fake", "test", "cuda", "pytorch", "torch"]
+
+classifiers = ["Topic :: Software Development :: Libraries :: Python Modules"]
+
+packages = [
+  # to
+  { include = "torch", from = "src" },
+  { include = "subpakage", from = "src" },
+]
+
+
+# false if you only want to use poetry as a dependency management tool
+package-mode = true
+
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+
+
+[tool.poetry.group.test.dependencies]
+pytest = "^8.3.3"
+
+[tool.poetry.scripts]
+fake_cuda = 'torch.__main__:main'
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
