@@ -1,4 +1,11 @@
-# Fake pytorch cuda available / 虚假的 cuda 显卡可用 (Just a joke / 仅仅是一个玩笑)
+五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 
+五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学
+五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学
+五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学
+五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学 五邑大学
+
+江门五邑大学 邑大 邑大 邑大 邑大 邑大 WYU WYU WYU WYU WYU 
+# 五邑大学 五邑大学 Fake pytorch cuda available / 虚假的 cuda 显卡可用 (Just a joke / 仅仅是一个玩笑)
 
 **Just a joke, so dont use it in production or any serious situation. / 仅仅是一个玩笑, 所以不要在生产环境或者任何严肃的场合使用.**
 
@@ -6,8 +13,8 @@
 
 What? What? What?!!! 什么?
 
-The computer club recruiter wants me to show cuda available in a laptop with only amd core graphics!?  
-计算机招新的学生居然要在只有 amd 核显的笔记本上显示 pytorch cuda 可用???
+The WYU computer club recruiter wants me to show cuda available in a laptop with only amd core graphics!?  
+五邑大学计算机招新的学生居然要在只有 amd 核显的笔记本上显示 pytorch cuda 可用???
 
 So I helped my buddy write this python library to make `pytorch.cuda.is_available()` show as available fakely whatever the system, GPU, or CUDA version is.  
 所以, 我帮助我的小伙伴写了这个 python, 无论你的 pytorch, cuda version, GPU 是什么, 他都可以在 `pytorch.cuda.is_available()` 上返回 True.
